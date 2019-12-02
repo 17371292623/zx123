@@ -1,12 +1,31 @@
-1.git文件夹中有三个项目
-工作区(红色)
-暂存区(绿色)
-.git隐藏文件(git本地仓库)
+git config --global user.name "zz"
+git config --global user.email "1412...@qq.com"
+之后会在Administrator文件夹下出现一个.gitconfig文件
 
-2.git add* (-A) 把工作区中的所有文件放在暂存区
-  git checkout 文件名 把暂存区的文件放在工作区
 
-3.git commit -m '提交注释' 把暂存区的所有文件提交到git本地仓库
-4.git log 查看历史提交到git本地仓库的版本(查看隐藏文件夹.git中的所有内容)
+GIT项目创建流程
+	1.git文件夹中有三个项目
+	工作区(红色)
+	暂存区(绿色)
+	.git隐藏文件(git本地仓库)
 
-5.git reset --hard 唯一id  可以切换到git本地仓库的任意版本
+	2.git add* (-A) 把工作区中的所有文件放在暂存区
+	  git checkout 文件名 把暂存区的文件放在工作区
+
+	3.git commit -m '提交注释' 把暂存区的所有文件提交到git本地仓库
+	4.git log 查看历史提交到git本地仓库的版本(查看隐藏文件夹.git中的所有内容)
+
+	5.git reset --hard 唯一id  可以切换到git本地仓库的任意版本
+
+
+发现bug->保存当前开发部分->回到头部开发完成->修改bug
+	1.git branch bug名称    创建bug分支
+	2.git checkout bug名称  切换到bug分支
+	3.直接修改
+	4.git add *
+	5.git commit -m "bug修改完成" 
+	6.切换到主分支 回到主体部分继续开发 开发完成上线
+	7.合并分支 git merge head 修改的bug分支
+	8.删除bug分支 git branch -d bug分支 强制删除分支(-D)
+github的使用
+	1.
