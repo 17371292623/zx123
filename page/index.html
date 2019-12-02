@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="../js/jquery-1.11.3.min.js"></script>
+	<script src="../js/City_data.js"></script>
+	<script src="../js/index.js"></script>
+	<link rel="stylesheet" href="../style/index.css">
+</head>
+<body>
+	<!-- 头部 -->
+	<div class="head">
+		<!-- 登录注册栏 -->
+		<div class="top_bg">
+			<div class="center_div">
+				<div class="mt_left">
+					<span>9年来打造专业装修平台，已为4,208,329位用户提供了优质装修服务！</span>
+				</div>
+				<div class="top_right">
+					<ul>
+						<li>
+							<a href="" style="color:#ff3322">>商家入驻</a>
+						</li>
+						<li>
+							<a href="" style="color: #ff3322">城市合伙人</a>
+						</li>
+						<li>
+							<a href="">诚聘英才</a>
+						</li>
+						<li>
+							<a href="">
+								<span class="iconty">
+									<span class="icon ia"></span>
+								</span>
+								在线咨询
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<span class="iconty">
+									<span class="icon ib"></span>
+								</span>
+								400-123-169
+							</a>
+						</li>
+						<li>
+							<a href="">
+								注册
+							</a>
+						</li>
+						<li>
+							<a href="">
+								登录
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- logo栏 -->
+		<div class="header_bg">
+			<div class="center_div">
+				<div class="banner er clear">
+					<div class="logo"></div>
+					<!-- 搜索框 -->
+					<div class="search_div clear">
+						<div class="my_downlist">
+							<span class="showsjx"></span>
+							<div class="show">效果图</div>
+							<div class="down">
+								<span>效果图</span>
+								<span>文章</span>
+								<span>问答</span>
+								<span>找公司</span>
+							</div>
+						</div>
+						<div class="div_s">
+							<input type="text" id="txt_top_input" class="txt_search_input" onkeydown="if(event.keyCode == 13){my_submit();}" placeholder="请输入搜索内容">
+						</div>
+						<div class="div_b">
+							<span class="txt_search_btn">搜索</span>
+						</div>
+						<div class="searchlog">
+							<a href="" target="blank">130平米装修效果图</a>
+							<a href="" target="blank">小户型家装效果图</a>
+							<a href="" target="blank">家庭装潢效果图</a>
+						</div>
+					</div>
+					<!-- 全国服务热线 -->
+					<div class="iponght clear">
+						全国服务热线
+						<br>
+						<font>4000-123-169</font>
+					</div>
+				</div>
+				<!-- 导航条 -->
+				<div class="navigate">
+					<ul>
+						<li class="nav_li">
+							<a href="" class="nav_big">
+								首页
+							</a>
+						</li>
+						<li class="nav_li">
+							<a href="" class="nav_big">
+							装修效果图
+							</a>
+							<div class="nav_down_er clear">
+								<a href="">家居图册</a>
+								<a href="">工装图册</a>
+								<a href="">精选美图</a>
+								<a href="">精品专题</a>
+							</div>
+						</li>
+						<li class="nav_li">
+							<a href="" class="nav_big fd">
+							设计/报价/方案
+							<span class="icon f">免费</span>
+							</a>
+						</li>
+						<li class="nav_li">
+							<a href="" class="nav_big">
+								装修公司
+							</a>
+							<div class="nav_down_er clear">
+								<a href="">装修公司</a>
+								<a href="">建材公司</a>
+								<a href="">装修建材</a>
+							</div>
+						</li>
+						<li class="nav_li">
+							<a href="" class="nav_big">
+								学装修
+							</a>
+							<div class="nav_down_er clear">
+								<a href="">装修流程</a>
+								<a href="">装修日记</a>
+								<a href="">装修计算</a>
+								<a href="">装修百科</a>
+							</div>
+						</li>
+						<li class="nav_li">
+							<a href="" class="nav_big">
+								同城装修
+							</a>
+							<div class="nav_down_er clear">
+								<a href="">我的小区</a>
+								<a href="">装修设计</a>
+								<a href="">在线工地</a>
+								<a href="">本地问答</a>
+							</div>
+						</li>
+						<li class="nav_li"><a href="" class="nav_big">装修问答</a></li>
+						<li class="nav_li"><a href="" class="nav_big">高端项目</a></li>
+					</ul>
+					<div class="bzjhua">
+						<a href=""></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="index_main">
+	<!-- 地区分站引导图 -->
+	<div class="cs_area_select cs_area_select_close">
+		<div class="c_a_s_top clear">
+			<span class="cs_index_bg hotcity_tag">热门城市</span>
+			<div class="hotcitys">
+				<a href="">北京</a>
+				<a href="">上海</a>
+				<a href="">深圳</a>
+				<a href="">广州</a>
+				<a href="">成都</a>
+				<a href="">天津</a>
+				<a href="">南京</a>
+				<a href="">苏州</a>
+				<a href="">西安</a>
+				<a href="">重庆</a>
+			</div>
+		</div>
+	</div>
+	<div class="c_a_s_center" id="diqu_1">
+		<div class="area_item area_itemads clear">
+			<div class="area_nameasd">
+				<span class="hover">按拼音首字母选择</span>
+			</div>
+			<!-- 拼音 -->
+			<div class="area_citys area_citysds clear" id="zzmu">
+				<span class="upcase">A</span>
+				<span>B</span>
+				<span>C</span>
+				<span>D</span>
+				<span>E</span>
+				<span>F</span>
+				<span>G</span>
+				<span>H</span>
+				<span>J</span>
+				<span>K</span>
+				<span>L</span>
+				<span>M</span>
+				<span>N</span>
+				<span>P</span>
+				<span>Q</span>
+				<span>R</span>
+				<span>S</span>
+				<span>T</span>
+				<span>W</span>
+				<span>X</span>
+				<span>Y</span>
+				<span>Z</span>
+			</div>
+		</div>
+		<div id="area_item_zimu">
+		</div>
+	</div>
+	</div>
+	<div class="block_main">
+        <!-- 装修风格 -->
+		<div class="cs_basic_box">
+			<div class="box_item">
+				<div class="box_title">
+					<h2>
+						<a href="">装修<font>效果图</font></a>
+					</h2>
+					<a href="" class="tile_a">家具图册</a>
+					<a href="" class="tile_a">工装图册</a>
+					<a href="" class="tile_a">精品专题</a>
+					<a href="" class="tile_a">最美新图</a>
+					<a href="" class="tile_a">最热美图</a>
+					<a href="" class="more">每日不断更新580张家居效果图</a>
+				</div>
+				<div class="box_content">
+					<div class="box_content_er">
+						<!-- 最左测轮播 -->
+						<div class="b_xgt xgtimg">
+							<div class="b_xgtkun">
+								<a href="">
+									<img src="../img/qwe66.jpg" alt="">
+									<span>现代欧式风格</span>
+								</a>
+								<a href="">
+									<img src="../img/thumb_390_414_20150210140351_46610.jpg" alt="">
+									<span>时尚家居</span>
+								</a>
+								<a href="">
+									<img src="../img/thumb_390_414_20150613105350_82491.jpg" alt="">
+									<span>工装图册</span>
+								</a>
+								<a href="">
+									<img src="../img/thumb_390_414_20150713120604_10175.jpg" alt="">
+									<span>精美选图</span>
+								</a>
+								<a href="">
+									<img src="../img/thumb_390_414_20150215114644_95207.jpg" alt="">
+									<span>精品专题</span>
+								</a>
+								<a href="">
+									<img src="../img/thumb_390_414_20151109172004_98077.jpg" alt="">
+									<span>最新图片</span>
+								</a>
+								<a href="">
+									<img src="../img/thumb_390_414_20150625155410_23719.jpg" alt="">
+									<span>现代欧式风格</span>
+								</a>
+							</div>
+							<!-- 切换轮播按钮 -->
+							<div class="xgtimglr">
+								<div class="xgtimgl">
+									<font class="icon"></font>
+								</div>
+								<div class="xgtimgr">
+									<font class="icon"></font>
+								</div>
+							</div>
+						</div>
+						<a href="" class="s_xgt xgtimg">
+							<img src="../img/qew11.jpg" alt="" >
+							<span>新中式风格</span>
+						</a>
+						<a href="" class="s_xgt xgtimg">
+							<img src="../img/qwe22.jpg" alt="" >
+							<span>现代美式风格</span>
+						</a>
+						<a href="" class="s_xgt xgtimg">
+							<img src="../img/qwe33.jpg" alt="" >
+							<span>地中海风格</span>
+						</a>
+						<a href="" class="s_xgt xgtimg">
+							<img src="../img/qwe44.jpg" alt="" >
+							<span>现代简约风格</span>
+						</a>
+						<a href="" class="s_xgt xgtimg">
+							<img src="../img/qwe55.jpg" alt="" >
+							<span>新古典风格</span>
+						</a>
+						<a href="" class="s_xgt xgtimg">
+							<img src="../img/er_eg2.jpg" alt="" >
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+        <!-- 装修流程 -->
+        <div class="cs_basic_box">
+            <div class="box_item clear">
+                <div class="box_title">
+                    <h2>
+                        <a href="" >装修<font>流程</font></a>
+                    </h2>
+                    <a href="" class="more">让你的装修更简单 快速装扮你的家</a>
+                    <a href="" class="tile_a">更多></a>
+                </div>
+                <div class="bt_step">
+                    <div class="bt_setp_bd clear">
+                        <div class="step_item">
+                            <div class="step_itema">
+                                <ul>
+                                    <li>
+                                        <a href="">
+                                            <span class="step_ico step_icoa"></span>
+                                            收房
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <span class="step_ico step_icob"></span>
+                                            设计
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <span class="step_ico step_icoc"></span>
+                                            预算
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <span class="step_ico step_icod"></span>
+                                            合同
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                         <div class="step_item">
+                            <div class="step_itemb">
+                                <ul>
+                                    <li>
+                                        <a href="">
+                                            <span class="step_ico step_icoe"></span>
+                                            拆改
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <span class="step_ico step_icof"></span>
+                                            水电
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href=""><span class="step_ico step_icog"></span>
+                                            防水
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href=""><span class="step_ico step_icoh"></span>
+                                            泥瓦
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <span class="step_ico step_icoi"></span>
+                                            水工
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <span class="step_ico step_icoj"></span>
+                                            油漆
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href=""><span class="step_ico step_icok"></span>
+                                            竣工
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href=""><span class="step_ico step_icol"></span>
+                                            更多
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                         <div class="step_item">
+                            <div class="step_itemc">
+                                <ul>
+                                    
+                                    <li>
+                                        <a href=""><span class="step_ico step_icom"></span>
+                                            软装
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href=""><span class="step_ico step_icon"></span>
+                                            入住
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 装修百科 -->
+        <div class="cs_basic_box">
+            <div class="box_item clear">
+                <div class="box_title">
+                    <h2>
+                        <a href="" >装修<font>百科</font></a>
+                    </h2>
+                    <a href="" class="more">家居风水</a>
+                    <a href="" class="more">装修风格</a>
+                    <a href="" class="more">建材家具</a>
+                    <a href="" class="more">家具装修</a>
+                    <a href="" class="more">装修攻略</a>
+                    <a href="" class="tile_a">更多></a>
+                </div>
+                <div class="box_content asdbox_content">
+                    <div class="sadff_list">
+                        <a href="">
+                            <img src="../img/thumb_234_186_20191119172515_43232.jpg" alt="">
+                            <span>恭喜中山纽世纪装饰签下一单，单值12万！！！</span>
+                        </a>
+                    </div>
+                    <div class="sadff_list">
+                        <a href="">
+                            <img src="../img/thumb_234_186_20191119170211_16652.jpg" alt="">
+                            <span>凑油烟机十大品牌你知道你个？你觉得哪个品牌油烟机最好？</span>
+                        </a>
+                    </div>
+                    <div class="sadff_list">
+                        <a href="">
+                            <img src="../img/thumb_234_186_20191119163909_63179.jpg" alt="">
+                            <span>装修干货|客流不断的服装店装修效果，几招就能搞定！</span>
+                        </a>
+                    </div>
+                    <div class="sadff_list">
+                        <a href="">
+                            <img src="../img/thumb_234_186_20191119155750_99699.jpg" alt="">
+                            <span>装修公司的运作模式是怎样的！揭秘装修公司那些事儿</span>
+                        </a>
+                    </div>
+                    <div class="sadff_list">
+                        <a href="">
+                            <img src="../img/thumb_234_186_20191119151326_79049.jpg" alt="">
+                            <span>服装店应该怎么装修才能吸引到顾客？七大技巧盘点</span>
+                        </a>
+                    </div>
+                    <div style="clear:both"></div>
+                </div>
+            </div>
+        </div>
+        <!-- 装修日记 -->
+        <div class="cs_basic_box">
+            <div class="box_item clear">
+                <div class="box_title">
+                    <h2>
+                        <a href="" >装修<font>日记</font></a>
+                    </h2>
+                    <a href="" class="tile_a">更多></a>
+                </div>
+                <div class="box_content asdbox_content">
+                    <div class="sadff_list">
+                        <a href="">
+                            <img src="../img/thumb_234_186_20151103144919_94750.jpg" alt="">
+                            <span>温馨家园装修记</span>
+                        </a>
+                    </div>
+                    <div class="sadff_list">
+                        <a href="">
+                            <img src="../img/thumb_234_186_20150811151123_75808.jpg" alt="">
+                            <span>二手房装修日记</span>
+                        </a>
+                    </div>
+                    <div class="sadff_list">
+                        <a href="">
+                            <img src="../img/thumb_234_186_20150817172624_40614.jpg" alt="">
+                            <span>美式新家装修日记</span>
+                        </a>
+                    </div>
+                    <div class="sadff_list">
+                        <a href="">
+                            <img src="../img/thumb_234_186_20150817143629_20669.jpg" alt="">
+                            <span>欧式与美式的混搭新家</span>
+                        </a>
+                    </div>
+                    <div class="sadff_list">
+                        <a href="">
+                            <img src="../img/thumb_234_186_20150811162124_93500.jpg" alt="">
+                            <span>欧美混搭风格小窝装修记</span>
+                        </a>
+                    </div>
+                    <div style="clear:both"></div>
+                </div>
+            </div>
+        </div>
+        <!-- 招标 问答 案例 -->
+        <div class="cs_basic_box">
+            <!-- <div class="box_item box_item_new">
+                <div class="box_title">
+                     <h2>
+                        <a href="" >
+                            <span class="icon a"></span>
+                            {{ value.name }}
+                        </a>
+                    </h2>
+                </div>
+                <div class="box_content">
+                    <div class="box_text_item clear">
+                        <div class="text_aRow">
+                            <a href="">
+                                 {{ value.name }} 
+                            </a>
+                            <span>{{ value.time }}</span>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+
+        <!-- 免费申请 -->
+        <div class="con m_t_8">
+            <a href="">
+                <img src="../img/lpad1000x113.jpg" alt="">
+            </a>
+        </div>
+
+        <!-- 友情链接 -->
+        <div class="link">
+            <li>
+                <b>友情链接</b>
+                <span class="gook_link">
+                    <!-- <a href="" v-for ="value in link_data">{{ value }}</a> -->
+                </span>
+                <span class="more_link"></span>
+                <span class="click_more"></span>
+            </li>
+        </div>
+
+        <!-- footer -->
+        <div class="newdowns">
+            <div class="newdowntop">
+                <div class="new_number clear">
+                    <div class="conterisd">为什么选择装信通</div>
+                    <div class="ewdolist">
+                        600
+                        <b>个</b>
+                        <br>
+                        <span>全国已开通分站城市</span>
+                    </div>
+                    <div class="ewdolist">
+                        30000
+                        <b>家</b>
+                        <br>
+                        <span>入驻商家会员超</span>
+                    </div>
+                    <div class="ewdolist">
+                        500
+                        <b>万</b>
+                        <br>
+                        <span>以服务业主数据超</span>
+                    </div>
+                    <div class="ewdolist">
+                        18
+                        <b>亿</b>
+                        <br>
+                        <span>2018年平台交易额超</span>
+                    </div>
+                </div>
+            </div>
+            <div class="newdowndown">
+                <!-- <div class="ndd_top">
+                    <div class="new_number">
+                        <div class="ndd_list newdowns_img imga">合作媒体</div>
+                         <div class="ndd_list newdowns_img imgb">
+                             <a href=""></a>
+                         </div>
+                         <div class="ndd_list newdowns_img imgc"></div>
+                         <div class="ndd_list newdowns_img imgd"></div>
+                         <div class="ndd_list newdowns_img imge"></div>
+                         <div class="ndd_list newdowns_img imgf"></div> 
+                    </div>
+                </div> -->
+                <div class="new_number">
+                    <div class="ndd_com ndd_com_a clear">
+                        <!-- 了解装信通 -->
+                        <div class="ndd_cleft clear">
+                            <ul>
+                                <li>了解装信通</li>
+                                <li><a href="">公司简介</a></li>
+                                <li><a href="">公司荣誉</a></li>
+                                <li><a href="">在线招聘</a></li>
+                                <li><a href="">友链合作</a></li>
+                            </ul>
+                            <ul>
+                                <li>模块指南</li>
+                                <li><a href="">精美选图</a></li>
+                                <li><a href="">家具百科</a></li>
+                                <li><a href="">装修百科</a></li>
+                                <li><a href="">装修问答</a></li>
+                            </ul>
+                            <ul>
+                                <li>帮助中心</li>
+                                <li><a href="">广告预定</a></li>
+                                <li><a href="">常见问题</a></li>
+                                <li><a href="">商家入驻</a></li>
+                                <li><a href="">城市合伙人</a></li>
+                            </ul>
+                        </div>
+                        <!-- 二维码 下载 -->
+                        <div class="ndd_ccont clear">
+                            <div class="ndd_cclist">
+                                <div class="ndd_cctitl">手机版</div>
+                                <div class="newdowns_img a">
+                                    <img src="../img/1532678889.png" alt="">
+                                </div>
+                            </div>
+                             <div class="ndd_cclist">
+                                <div class="ndd_cctitl">微信公众号</div>
+                                <div class="newdowns_img a">
+                                    <img src="../img/qrcode_for_gh_e4f.png" alt="">
+                                </div>
+                            </div>
+                            <div class="ndd_cclist d">
+                                <div class="ndd_cctitl">客户端下载</div>
+                                <div class="khduxz">
+                                    <a href="">
+                                        <div class="newdowon clear">
+                                            <span class="newdowns_img a"></span>
+                                            IOS
+                                        </div>
+                                    </a>
+                                    <a href="">
+                                        <div class="newdowon clear">
+                                            <span class="newdowns_img b"></span>
+                                            Android
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 全国免费热线 -->
+                        <div class="ndd_right clear">
+                            <p class="tilre">
+                                <span class="newdowns_img c"></span>
+                                全国免费咨询热线
+                            </p>
+                            <p class="tilbr">
+                                400-123-169
+                            </p>
+                            <p class="timin">
+                                <a href="">
+                                    <span class="newdowns_img a"></span>
+                                    新浪官方微博
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                    <!--  -->
+                    <div class="ndd_com ndd_com_b clear">
+                        <div class="ndd_list">
+                            <a href="">
+                                <span class="newdowns_img imga"></span>
+                                <span class="newdowns_b">
+                                    工商网监
+                                    <br>
+                                    电子标识
+                                </span>
+                            </a>
+                        </div>
+                        <div class="ndd_list">
+                            <a href="">
+                                <span class="newdowns_img imgb"></span>
+                                <span class="newdowns_b">
+                                    中国互联网
+                                    <br>
+                                    协会
+                                </span>
+                            </a>
+                        </div>
+                        <div class="ndd_list">
+                            <a href="">
+                                <span class="newdowns_img imgc"></span>
+                                <span class="newdowns_b">
+                                    网路警察
+                                    <br>
+                                    举报平台
+                                </span>
+                            </a>
+                        </div>
+                        <div class="ndd_list">
+                            <a href="">
+                                <span class="newdowns_img imgd"></span>
+                                <span class="newdowns_b">
+                                    中国互联网
+                                    <br>
+                                    举报中心
+                                </span>
+                            </a>
+                        </div>
+                        <div class="ndd_list">
+                            <a href="">
+                                <span class="newdowns_img imge"></span>
+                                <span class="newdowns_b">
+                                    信用中国
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="ndd_com clear">
+                    	<p class="ndd_com_text">
+							Copyright 2019 zx123.cn，四川弘讯电子商务有限公司版权所有  ICP备案证书号：蜀ICP备12015828号<br>
+							地址：成都市高新区天府二街269号川威大厦22楼  服务热线：4000-123-169  028-6313-8462  028-6320-9006  企业QQ：8000 53418
+                    	</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+	</div>
+</body>
+</html>

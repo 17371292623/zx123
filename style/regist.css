@@ -1,0 +1,467 @@
+a, a:link, a:active, a:focus, a:hover, a:visited {
+    text-decoration: none;
+    border: 0;
+    color: inherit;
+    +color: #444;
+    _color: #444;
+}
+blockquote, body, button, dd,
+ div, dl, dt, form, h1, h2, h3,
+  h4, h5, h6, input, li, ol, p,
+   pre, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+select, input, textarea {
+    box-shadow: none;
+    font-family: "microsoft yahei";
+    font-size: 12px;
+}
+button, input, optgroup, option, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    font-style: inherit;
+    font-weight: inherit;
+    outline: 0;
+}
+.maintop {
+    margin: 0 auto;
+    height: 40px;
+    border-bottom: 1px solid #eaeaea;
+    background: #f5f5f5;
+    color: #888;
+    font-size: 12px;
+    line-height: 40px;
+}
+.main1200 {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+.maintop .mt_left {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.maintop .mt_left span.mt_masg {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 25px;
+}
+.maintop .mt_right {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.maintop .mt_right .jk:nth-child(1) a{
+	color: #ff3322;
+}
+.maintop .mt_right span.jk {
+    margin-left: 25px;
+}
+.maintop .mt_right a {
+    display: inline-block;
+    margin-left: 5px;
+    padding: 0 2px;
+}
+.maintop .mt_right a:last-child {
+    padding-right: 0;
+}
+
+/*logo*/
+.mainlogo {
+    margin: 0 auto;
+    padding: 10px 0 5px 0;
+    border-bottom: 1px solid #eaeaea;
+}
+.main860{
+	width: 1200px;
+	margin:0 auto;
+	position: relative;
+}
+.mainlogo .ml_logo {
+    padding: 20px 0;
+}
+
+.mainlogo .ml_logo {
+    float: left;
+    margin-right: 0px;
+}
+.mainlogo .ml_logo img {
+    display: block;
+    width: auto;
+}
+.mainlogo .ml_text {
+    float: left;
+    margin-left: -40px;
+    padding-top: 20px;
+    display: none;
+}
+.mainlogo .ml_textwe {
+    margin: 10px;
+    width: 100px;
+    text-align: center;
+    padding: 0 10px;
+    border-radius: 10px;
+    font-size: 18px;
+    border: 1px solid #ea6b3e;
+    color: #ea6b3e;
+}
+/*注册主要部分*/
+.maincenter {
+    margin: 0 auto;
+    padding: 0;
+}
+.maincenter .denlu {
+    width: 100%;
+    background: url(../img/login_bg.jpg) center center no-repeat;
+    height: 760px;
+}
+.denlu .denlulist {
+    width: 556px;
+}
+
+.denlu .denlulist {
+    float: left;
+    width: 450px;
+    padding: 60px 0;
+    margin-left: -20px;
+}
+.denlu .denlulist img {
+    width: 100%;
+    height: auto;
+}
+
+/*注册表*/
+.denlu .denlulister {
+	float: right;
+    width: 360px;
+    padding: 0px 20px 20px 20px;
+    margin:60px 20px 0 0 ;
+    border: 0;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+    height: 660px;
+}
+.denlu .denlul_li {
+    width: auto;
+    height: 50px;
+    line-height: 50px;
+    margin: 15px 0;
+    overflow: hidden;
+}
+.denlu .denlul_li {
+    width: auto;
+    height: 50px;
+    line-height: 50px;
+    margin: 15px 0;
+    overflow: hidden;
+    color: #888;
+    font-size: 12px;
+}
+.denlu .denluli_a {
+	position: relative;
+    padding: 0;
+    border-bottom: 1px solid #eee;
+    width: auto;
+    height: 60px;
+    line-height: 60px;
+    margin-top: 10px;
+    line-height: 58px;
+    text-align: center;
+    font-size: 16px;
+    color: #666;
+}
+.denlu .denluli_a span.dfg {
+    font-weight: normal;
+    border-bottom: 2px solid #ff7444;
+}
+.denlu .denluli_a span {
+    display: inline-block;
+    width: 49%;
+    float: left;
+}
+.pcbanner_bd_sj .sj_sz {
+    font-size: 40px;
+    margin: 30px 0px 0px auto;
+    text-align: center;
+    color: #ff7d44;
+}
+.pcbanner_bd_sj .sj_sm {
+    font-size: 14px;
+    margin: 0;
+    text-align: center;
+    color: #979797;
+}
+.denlu .denluli_text {
+    position: relative;
+    background: #f7f7f7;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px inset rgba(0,0,0,0.01);
+}
+
+
+.denlu .denlul_li span.iconlo.icon_sv {
+    background-position-x: -139px;
+}
+.denlu .denlul_li span.iconlo.icon_a {
+    background-position-y: -58px;
+}
+.denlu .denlul_li span.iconlo.icon_b {
+    background-position-y: -28px;
+}
+.denlu .denlul_li span.iconlo.icon_e {
+    background-position: -139px -116px;
+}
+.denlu .denlul_li span.iconlo.icon_d {
+    background-position-y: -88px;
+}
+.denlu .denlul_li span.iconlo {
+    width: 22px;
+    height: 22px;
+    background: url(../img/login.png) no-repeat center center;
+    background-size: 157px 200px;
+}
+.denlu .denlul_li span.icon {
+}
+.denlu .denlul_li span.icon {
+    display: block;
+    position: absolute;
+    top: 14px;
+    left: 6px;
+    width: 22px;
+    height: 22px;
+}
+.denluli_text span#df {
+    display: block;
+    margin: 0 0 0 40px;
+}
+.denluli_text span#df select:first-child {
+    margin: 0;
+}
+
+.denluli_text span#df select {
+    display: block;
+    float: left;
+    height: 50px;
+    background: transparent;
+    border: 0;
+    padding: 0 0 0 4%;
+    width: 32%;
+}
+.denlu .denlul_li input[type='password'], 
+.denlu .denlul_li input[type='text'], 
+.denlu .denlul_li input[type='number'] {
+    width: 100%;
+    height: 100%;
+    text-indent: 40px;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    background: none;
+    box-shadow: none;
+}
+.denlu .denlul_li input {
+    height: 36px;
+    line-height: 36px;
+}
+/*验证码按钮*/
+.denlu .denluli_text .yzm_btn {
+    position: absolute;
+    user-select: none;
+    z-index: 9;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border-radius: 0 5px 5px 0;
+    background: #e9e9e9;
+    color: #666;
+    width: 8em;
+    text-align: center;
+}
+.denlu .denluli_text .yzm_btn .btn-a {
+    display: block;
+    cursor: pointer;
+}
+img {
+    display: inline-block;
+    width: 100%;
+    border: 0px;
+}
+.denlu .denluli_text.rzxy label {
+    cursor: pointer;
+}
+.denlu .denlul_li input[type='checkbox'] {
+    height: auto;
+}
+
+.denlu .denlul_li input[type='checkbox'], .denlu .denlul_li input[type='radio'] {
+    vertical-align: -2px;
+    border: 1px solid #eaeaea;
+    border-radius: 20%;
+}
+.denlu .denluli_text.rzxy {
+    background: transparent;
+    line-height: 20px;
+    height: 20px;
+}
+.denlu .denlul_li input.sabmi {
+    background: #ff7444;
+    border-radius: 5px;
+    height: 50px;
+    line-height: 50px;
+    width: 100%;
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #fff;
+    border:0;
+}
+.zhuce_type {
+    text-align: center;
+    margin: auto;
+    background-color: #f7f1f1;
+    border-radius: 2px;
+    width: 102px;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 5px;
+    padding: auto;
+    verticle-align: middle;
+    font-family: "microsoft yahei";
+    font-size: 14px;
+    color: #777;
+    margin-top: 14px;
+    transition: ease all 0.3s;
+}
+
+/*footer*/
+.maindown {
+    margin: 0 auto 0 auto;
+    color: #888;
+    background: #444;
+    border-top: 2px solid #eb592c;
+    padding: 25px 0;
+}
+.main1200 {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+.maindown .md_left {
+    float: left;
+    width: 68%;
+    line-height: 30px;
+}
+.maindown .md_left .address_a {
+    padding: 10px 0;
+}
+.maindown .md_left .address_b {
+    padding: 10px 0;
+}
+.maindown .md_left .address_c {
+    line-height: 26px;
+}
+.maindown .md_left a:first-child {
+    padding-left: 0;
+}
+
+.maindown .md_left a:nth-child(1) {
+    padding-left: 0;
+}
+.maindown .md_left a {
+    display: inline-block;
+    margin-right: 5px;
+    padding: 0 4px;
+    +color: #888;
+    _color: #888;
+}
+.maindown .md_left .address_a a:last-child{
+	color:#ffcc33;
+}
+.maindown .md_right{
+	float: right;
+	padding-top: 15px;
+}
+.maindown .md_right .mdr_c {
+    position: relative;
+    width: 198px;
+    height: 84px;
+    margin: 0 auto;
+}
+.maindown .md_right .mdr_a {
+    float: right;
+    width: 80px;
+    height: 80px;
+    padding: 2px;
+    background: #eeede7;
+    margin-left: 15px;
+}
+.maindown .md_right img.er {
+    width: 60%;
+    height: 60%;
+    margin: 20%;
+}
+
+.maindown .md_right img {
+    display: block;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+.maindown .md_right .mdr_b {
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 5px;
+}
+.maindown .md_right .mdr_b span {
+    display: inline-block;
+    vertical-align: middle;
+    background-position: -4px -26px;
+    width: 30px;
+    height: 30px;
+}
+.icon_y {
+    background: transparent url(../img/pc_icon.png) no-repeat left top;
+    background-size: 500px 500px;
+}
+.maindown .md_right .mdr_b a {
+    +margin-left: 5px;
+    _margin-left: 5px;
+    color: #888;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*清除浮动*/
+.clear:after {
+    zoom: 1;
+    display: block;
+    clear: both;
+    content: "\0020";
+    visibility: hidden;
+    height: 0;
+}
